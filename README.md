@@ -13,4 +13,6 @@
 10. Проект запущен локально по адресу: `http://localhost:3000/`
 
 
+# Скриншоты проекта:
 ![Image alt](https://github.com/s4tisf4ction/ToDo_list/blob/main/scr10-01-2024%20235627.jpg)
+![Image alt](https://github.com/s4tisf4ction/ToDo_list/blob/main/scr10-01-2024%20235637.jpg)
