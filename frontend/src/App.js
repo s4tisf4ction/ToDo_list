@@ -58,13 +58,13 @@ const App = () => {
 
   return (
     <main className="container">
-      <h1 className="text text-uppercase text-center my-4">Taski</h1>
+      <h1 className="text text-uppercase text-center my-4">Мои задачи</h1>
       <div className="row">
         <div className="col-md-6 col-sm-10 mx-auto p-0">
           <div className="card p-3">
             <div className="mb-4">
               <button className="btn btn-primary" onClick={createTask}>
-                Add task
+                Добавить задачу
               </button>
             </div>
             <TabList

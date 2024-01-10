@@ -4,14 +4,16 @@ const TabList = ({ isShowCompleted, displayCompleted }) => {
       <span
         onClick={() => displayCompleted(true)}
         className={isShowCompleted ? "nav-link active" : "nav-link"}
+        style={{cursor: "pointer"}}
       >
-        Complete
+        Выполнено
       </span>
       <span
         onClick={() => displayCompleted(false)}
         className={isShowCompleted ? "nav-link" : "nav-link active"}
+        style={{cursor: "pointer"}}
       >
-        Incomplete
+        В процессе выполнения
       </span>
     </div>
   );

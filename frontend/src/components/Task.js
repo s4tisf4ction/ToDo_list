@@ -12,10 +12,10 @@ const Task = ({ data, handleEdit, handleDelete }) => {
           className="btn btn-secondary mr-2"
           onClick={() => handleEdit(data)}
         >
-          Edit
+          Изменить
         </button>
         <button className="btn btn-danger" onClick={() => handleDelete(data)}>
-          Delete
+          Удалить
         </button>
       </span>
     </li>

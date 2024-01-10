@@ -28,29 +28,29 @@ const TaskEditModal = ({ taskData, toggle, onSave }) => {
 
   return (
     <Modal isOpen={true} toggle={toggle}>
-      <ModalHeader toggle={toggle}>Task Item</ModalHeader>
+      <ModalHeader toggle={toggle}>Задача</ModalHeader>
       <ModalBody>
         <Form>
           <FormGroup>
-            <Label for="task-title">Title</Label>
+            <Label for="task-title">Что нужно сделать?</Label>
             <Input
               type="text"
               id="task-title"
               name="title"
               value={item.title}
               onChange={handleChange}
-              placeholder="Enter Task Title"
+              placeholder="Введите задачу"
             />
           </FormGroup>
           <FormGroup>
-            <Label for="task-description">Description</Label>
+            <Label for="task-description">Описание</Label>
             <Input
               type="text"
               id="task-description"
               name="description"
               value={item.description}
               onChange={handleChange}
-              placeholder="Enter Task description"
+              placeholder="Внесите описание"
             />
           </FormGroup>
           <FormGroup check>
@@ -61,14 +61,14 @@ const TaskEditModal = ({ taskData, toggle, onSave }) => {
                 checked={item.completed}
                 onChange={handleChange}
               />
-              Completed
+              Выполнено
             </Label>
           </FormGroup>
         </Form>
       </ModalBody>
       <ModalFooter>
         <Button color="success" onClick={() => onSave(item)}>
-          Save
+          Сохранить
         </Button>
       </ModalFooter>
     </Modal>
